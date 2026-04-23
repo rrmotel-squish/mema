@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hey You!</title>
+  <style>
+    body {
+      font-family: Arial;
+      background: #d4bfc5;
+      text-align: center;
+      padding-top: 100px;
+    }
+
+    button {
+      padding: 15px 25px;
+      font-size: 18px;
+      background: #342e2f;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    #message {
+      display: none;
+      margin-top: 30px;
+      font-size: 22px;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Hey, click this 😊</h1>
+
+  <button onclick="showMessage()">Click Me</button>
+
+  <div id="message">
+    <p>Surprise 😳</p>
+    <p>I just wanted to say…</p>
+    <h2>You're a Nigga ❤️</h2>
+  </div>
+
+  <script>
+    function showMessage() {
+      document.getElementById("message").style.display = "block";
+    }
+  </script>
+
+</body>
+</html>
